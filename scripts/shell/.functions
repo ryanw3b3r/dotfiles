@@ -1,0 +1,9 @@
+function weather() {
+   city="$1"
+
+   if [ -z "$city" ]; then
+      city="Swinoujscie"
+   fi
+
+   curl http://wttr.in/$city
+}

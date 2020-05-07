@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo 'Installing OpenConnect'
+echo '----------------------'
+echo
+
+brew tap horar/openconnect-gui
+brew install openconnect-gui
+
+if [ ! -d "/Applications/OpenConnect-GUI.app" ]
+then
+    INSTALL_PATH=$(ls -d /usr/local/Cellar/openconnect-gui/*|head -n 1)
+    sudo cp -R $INSTALL_PATH/OpenConnect-GUI.app /Applications/
+fi

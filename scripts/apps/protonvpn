@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing ProtonVPN'
+echo '--------------------'
+echo
+brew cask install protonvpn

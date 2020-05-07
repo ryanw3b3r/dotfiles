@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing MAS'
+echo '--------------'
+echo
+brew install mas

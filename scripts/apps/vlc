@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing VLC'
+echo '--------------'
+echo
+brew cask install vlc

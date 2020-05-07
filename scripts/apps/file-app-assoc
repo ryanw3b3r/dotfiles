@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+echo 'Assigning file extensions to apps'
+echo '--------------------------------'
+echo
+duti -s com.microsoft.VSCode .md editor
+duti -s com.microsoft.VSCode .txt editor
+duti -s com.microsoft.VSCode .cpp editor
+duti -s com.microsoft.VSCode .css editor
+duti -s com.microsoft.VSCode public.html editor
+duti -s com.microsoft.VSCode .js editor
+duti -s com.microsoft.VSCode .m editor
+duti -s com.microsoft.VSCode .mm editor
+duti -s com.microsoft.VSCode .md editor
+duti -s com.microsoft.VSCode .pl editor
+duti -s com.microsoft.VSCode .rb editor
+duti -s com.microsoft.VSCode .scpt editor
+duti -s com.microsoft.VSCode .swift editor
+duti -s com.microsoft.VSCode .c editor
+duti -s com.microsoft.VSCode .cs editor
+duti -s com.microsoft.VSCode .go editor
+duti -s com.microsoft.VSCode .java editor
+duti -s com.microsoft.VSCode .lua editor
+duti -s com.microsoft.VSCode .php editor
+duti -s com.microsoft.VSCode .py editor
+duti -s com.microsoft.VSCode .rs editor
+duti -s com.microsoft.VSCode .sh editor
+duti -s com.microsoft.VSCode .tex editor
+duti -s org.videolan.vlc .m4v viewer
+duti -s org.videolan.vlc .mp4 viewer
+duti -s org.videolan.vlc .mov viewer
+duti -s org.videolan.vlc .mkv viewer
+duti -s org.videolan.vlc .avi viewer

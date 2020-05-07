@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Bear'
+echo '---------------'
+echo
+mas install 1091189122

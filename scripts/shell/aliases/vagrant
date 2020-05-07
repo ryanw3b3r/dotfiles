@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+alias prov="vagrant reload --provision"
+alias vup="vagrant up"
+alias vdn="vagrant halt"
+alias vssh="vagrant ssh"

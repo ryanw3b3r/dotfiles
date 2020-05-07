@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing AppCleaner'
+echo '---------------------'
+echo
+brew cask install appcleaner

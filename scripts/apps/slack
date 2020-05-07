@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Slack'
+echo '----------------'
+echo
+brew cask install slack

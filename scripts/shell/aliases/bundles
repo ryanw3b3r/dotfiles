@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+alias homeinstall="composer require laravel/homestead --dev && php vendor/bin/homestead make"

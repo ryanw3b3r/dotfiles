@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Jetbrains Toolbox'
+echo '----------------------------'
+echo
+brew cask install jetbrains-toolbox

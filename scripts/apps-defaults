@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+APPS_PATH=$HOME/.dotfiles/scripts/apps
+
+$APPS_PATH/homebrew
+$APPS_PATH/mas
+$APPS_PATH/1password
+$APPS_PATH/acrobat-reader
+$APPS_PATH/alfred
+$APPS_PATH/appcleaner
+$APPS_PATH/bartender
+$APPS_PATH/bear
+$APPS_PATH/docker
+$APPS_PATH/duti
+$APPS_PATH/chrome
+$APPS_PATH/firefox
+$APPS_PATH/folx
+$APPS_PATH/insomnia
+$APPS_PATH/jetbrains
+$APPS_PATH/macpass
+$APPS_PATH/ngrok
+$APPS_PATH/openconnect
+$APPS_PATH/protonvpn
+$APPS_PATH/remote-desktop
+$APPS_PATH/sketch
+$APPS_PATH/skype
+$APPS_PATH/slack
+$APPS_PATH/tableplus
+$APPS_PATH/transmit
+$APPS_PATH/tuple
+$APPS_PATH/vlc
+$APPS_PATH/vscode
+$APPS_PATH/file-app-assoc
+echo '*'
+echo '* NOTE:'
+echo '* Please install manually: TablePlus.'
+echo '*'

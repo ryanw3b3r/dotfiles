@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Acrobat Reader'
+echo '-------------------------'
+echo
+brew cask install adobe-acrobat-reader

@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+SCRIPTS_PATH=$HOME/.dotfiles/scripts
+echo
+echo ' ==============================='
+echo ' =  Restore apps and settings  ='
+echo ' ==============================='
+echo
+read -p ' This will install apps. Are you sure? (y/N) '  reply
+
+if [[ $reply =~ ^[Yy] ]]
+then
+	echo
+	echo " Let's go then..."
+	echo
+	
+	source $SCRIPTS_PATH/install
+	
+	echo
+	echo ' ++++++++++++++++++++++++++++++'
+	echo ' ++++++++++++++++++++++++++++++'
+	echo ' ++         ALL DONE         ++'
+	echo ' ++++++++++++++++++++++++++++++'
+	echo ' ++++++++++++++++++++++++++++++'
+	echo
+	exit
+fi
+
+echo ' Nothing to do then!'
+echo

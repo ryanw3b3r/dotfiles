@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+alias gitzapmap='git config user.name "Ryan Weber" && git config user.email "ryanweber@zap-map.com"'
+alias ocpi='cd /Users/ryan/code/zapmap/ocpi && echo "Current path: `pwd`"'
+alias vsess='code /Users/ryan/code/zapmap/ocpi/sessions'

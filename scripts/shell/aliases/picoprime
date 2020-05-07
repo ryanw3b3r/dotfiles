@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+alias gitpico='git config user.name "Ryan Weber" && git config user.email "ryan@picoprime.com"'

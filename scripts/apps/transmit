@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Transmit'
+echo '-------------------'
+echo
+brew cask install transmit

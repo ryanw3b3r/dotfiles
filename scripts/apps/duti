@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Duti'
+echo '---------------'
+echo
+brew install duti

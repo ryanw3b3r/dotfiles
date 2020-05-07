@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Insomnia'
+echo '-------------------'
+echo
+brew cask install insomnia

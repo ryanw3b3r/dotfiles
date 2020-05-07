@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+alias art="php artisan"
+alias artmake="php artisan make"

@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+alias gpm="git push origin master"
+alias gpd="git push origin develop"
+alias gall="git add ."
+alias gs="git status"
+alias gpl="git pull"
+alias gsh="git stash"
+alias gsp="git stash pop"
+alias gdt='git merge develop --strategy-option theirs'
+alias nah="git reset --hard && git clean -df"

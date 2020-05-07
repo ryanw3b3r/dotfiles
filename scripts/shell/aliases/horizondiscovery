@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+alias stg="ssh -i ~/.ssh/HorizonWebDev.pem horizon@staging.horizondiscovery.com"
+alias irpro="ssh -i ~/.ssh/HorizonWebDev.pem horizon@horizondiscoveryplc.com"
+
+alias fbat="ssh -i ~/.ssh/fruitbat-hd-servers.key rwojenkowski@10.11.22.30"
+alias fbatstg="ssh -i ~/.ssh/fruitbat-hd-servers.key rwojenkowski@10.11.22.31"
+alias fbat2stg="ssh -i ~/.ssh/hd-azure rwojenkowski@10.9.4.5"
+
+alias gitrafal='git config user.name "Rafal Wojenkowski" && git config user.email "19913046+rafal-horizon@users.noreply.github.com"'
+
+alias fback='cd ~/code/horizondiscovery/fruitbat2/backend/'
+alias ffront='cd ~/code/horizondiscovery/fruitbat2/frontend/'

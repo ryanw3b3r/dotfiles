@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing MacPass'
+echo '------------------'
+echo
+brew cask install macpass

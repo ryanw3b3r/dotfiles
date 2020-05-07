@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Alfred'
+echo '-------------------'
+echo
+brew cask install alfred

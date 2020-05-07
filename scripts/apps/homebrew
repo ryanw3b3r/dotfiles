@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+echo 'Installing Homebrew'
+echo '-------------------'
+echo
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+brew analytics off
+
+# Update homebrew formaulaes
+brew update
+
+# Install some packages
+brew install wget coreutils
+
+# Install homebrew cask
+brew tap homebrew/cask-cask
+brew tap homebrew/cask-versions
+brew install homebrew/cask-cask
+brew install homebrew/cask-versions

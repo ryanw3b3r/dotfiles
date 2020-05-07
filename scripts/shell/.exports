@@ -1,0 +1,16 @@
+# Make VS Code the default editor
+export EDITOR="code"
+
+# Prefer US English and use UTF-8
+export LANG="en_GB.UTF-8"
+export LC_ALL="en_GB.UTF-8"
+
+# Always enable colored `grep` output
+export GREP_OPTIONS="--color=auto"
+
+# Enable colors in terminal
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# Simplify prompt
+export PS1="%F{green}%3~%f ➤ "

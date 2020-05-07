@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing MS Remote Desktop'
+echo '----------------------------'
+echo
+mas install 1295203466

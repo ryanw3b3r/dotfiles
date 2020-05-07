@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Sketch'
+echo '-----------------'
+echo
+brew cask install sketch

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Tuple'
+echo '----------------'
+echo
+curl -L https://git.io/tuple-install | bash

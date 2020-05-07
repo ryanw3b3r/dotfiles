@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+SCRIPTS_PATH=$HOME/.dotfiles/scripts
+SHELL_SCRIPTS=$SCRIPTS_PATH/shell
+
+echo 'Installing new .zshrc'
+echo '----------------------'
+echo
+cp $SHELL_SCRIPTS/.zshrc $HOME/.zshrc
+
+# Hide "last login" line when starting a new terminal session
+echo 'Hiding "last login" line in terminal'
+echo '------------------------------------'
+echo
+touch $HOME/.hushlogin
+
+echo 'Installing apps'
+echo '---------------'
+echo
+$SCRIPTS_PATH/apps-defaults

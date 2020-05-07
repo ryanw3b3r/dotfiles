@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Folx'
+echo '------------------'
+echo
+brew cask install folx

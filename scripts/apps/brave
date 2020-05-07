@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Brave Browser'
+echo '------------------------'
+echo
+brew cask install brave-browser

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing TablePlus'
+echo '--------------------'
+echo
+brew cask install tableplus

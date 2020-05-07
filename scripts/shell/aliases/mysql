@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+alias dbup="mysql.server start"
+alias dbdown="mysql.server stop"
+
+alias dbstart="mysql.server start"
+alias dbstop="mysql.server stop"
+
+alias mysqlstart="mysql.server start"
+alias mysqlstop="mysql.server stop"

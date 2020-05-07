@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Skype'
+echo '----------------'
+echo
+brew cask install skype

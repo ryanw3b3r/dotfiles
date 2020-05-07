@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo 'Installing Firefox'
+echo '------------------'
+echo
+brew cask install firefox
